@@ -1,0 +1,19 @@
+create database face_recognizer;
+use face_recognizer;
+create table employes(
+dep varchar(50),
+function_e varchar(50),
+year_e varchar(50),
+month_e varchar(50),
+id_emp  int primary key,
+name_e varchar(100),
+gender varchar(50),
+cin varchar(50),
+service varchar(100),
+status varchar(50),
+category varchar(50),
+phone varchar(50),
+email varchar(50),
+adress varchar(50));
+
+
